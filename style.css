@@ -1,0 +1,363 @@
+* {
+  box-sizing: border-box
+}
+
+@media screen and (min-width: 600px) {
+
+  
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.55;
+  color: #666;
+  background: #F6F6F6;
+}
+
+
+	
+	.qheader {
+	text-align: center;
+	font-weight:900;
+	font-size: 1.2em;
+	max-width: 85%;
+	margin: auto;
+}
+
+
+.goals-record {
+	text-align: center;
+	background-color: #FFFFFF;
+	max-width: 500px;
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.goalschart {
+	font-size:0.9em;
+
+
+}
+
+.goalstable {
+	align: center;
+	width: 100%;
+	margin: auto;
+	border:15px solid white;
+	background-color: #F6F6F6;
+}
+
+.ppgoalschart {
+	font-size:0.9em;
+
+}
+
+.ppgoalstable {
+	align: center;
+	width: 100%;
+	margin: auto;
+	border:15px solid white;
+	background-color: #F6F6F6;
+}
+
+.gwgoalschart {
+	font-size:0.9em;
+
+}
+
+.gwgoalstable {
+	align: center;
+	width: 100%;
+	margin: auto;
+	border:15px solid white;
+	background-color: #F6F6F6;
+}
+
+.ppgoals {
+	font-weight: bold;
+}
+
+.gwgoals {
+	font-weight: bold;
+}
+
+.goals {
+	font-weight: bold;
+}
+
+
+.ppgoals-record {
+	text-align: center;
+	background-color: #FFFFFF;
+	max-width: 500px;
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-left: 3%;
+	padding-right: 3%;
+
+}
+
+.gwgoals-record {
+	text-align: center;
+	background-color: #FFFFFF;
+	max-width: 500px;
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 15px;
+		padding-left: 3%;
+	padding-right: 3%;
+}
+
+.otherrecords {
+	text-align: center;
+	font-weight:900;
+	font-size: 1.2em;
+}
+	
+	
+
+td {
+  padding: 3.5px;
+  text-align: center;
+	
+}
+
+th {
+  background-color: #041E42;
+  color: white;
+  padding: 4.5px;
+  text-align: center;
+}
+
+tr:nth-child(even) {background-color: #FFFFFF;}
+tr:hover {background-color: #C8102E; color: #FFFFFF;}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+p {
+ 
+  margin: 0;
+
+}
+
+
+
+.ppgoalsbehind {
+ font-size: 3.5em;
+ font-family: Lato;
+		  font-weight: 900;
+		color: #041E42;
+}
+
+.gwgoalsbehind {
+  font-size: 3.5em;
+  font-family: Lato;
+	  font-weight: 900;
+	color: #041E42;
+}
+
+.goalsbehind {
+  font-size: 3.5em;
+  font-family: Lato;
+  font-weight: 900;
+		color: #041E42;
+	
+}
+
+.goalsbehind:hover {color: #C8102E;}
+.ppgoalsbehind:hover {color: #C8102E;}
+.gwgoalsbehind:hover {color: #C8102E;}
+
+}
+
+
+@media screen and (max-width: 600px) {
+  
+
+
+	
+	
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #666;
+  background: #F6F6F6;
+}
+
+	
+		.qheader {
+	text-align: center;
+	font-weight:900;
+	font-size: 1.2em;
+	max-width: 90%;
+	margin: auto;
+}
+
+
+.goals-record {
+	text-align: center;
+	background-color: #FFFFFF;
+	max-width: 500px;
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.goalschart {
+	font-size:0.9em;
+
+}
+
+.goalstable {
+	align: center;
+	width: 100%;
+	margin: auto;
+	border:15px solid white;
+	background-color: #F6F6F6;
+}
+
+.ppgoalschart {
+	font-size:0.9em;
+
+}
+
+.ppgoalstable {
+	align: center;
+	width: 100%;
+	margin: auto;
+	border:15px solid white;
+	background-color: #F6F6F6;
+}
+
+.gwgoalschart {
+	font-size:0.9em;
+
+
+}
+
+.gwgoalstable {
+	align: center;
+	width: 100%;
+	margin: auto;
+	border:15px solid white;
+	background-color: #F6F6F6;
+}
+
+.ppgoals {
+	font-weight: bold;
+}
+
+.gwgoals {
+	font-weight: bold;
+}
+	
+	.pmgwgoals {
+
+}
+
+.goals {
+	font-weight: bold;
+}
+
+
+.ppgoals-record {
+	text-align: center;
+	background-color: #FFFFFF;
+	max-width: 500px;
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-left: 4%;
+	padding-right: 4%;
+
+}
+
+.gwgoals-record {
+	text-align: center;
+	background-color: #FFFFFF;
+	max-width: 500px;
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 15px;
+		padding-left: 4%;
+	padding-right: 4%;
+}
+
+.otherrecords {
+	text-align: center;
+	font-weight:900;
+	font-size: 1.1em;
+}
+
+td {
+  padding: 3.5px;
+  text-align: center;
+	
+}
+
+th {
+  background-color: #041E42;
+  color: white;
+  padding: 4.5px;
+  text-align: center;
+}
+
+tr:nth-child(even) {background-color: #FFFFFF;}
+tr:hover {background-color: #C8102E; color: #FFFFFF;}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+p {
+ 
+  margin: 0;
+
+}
+
+
+
+.ppgoalsbehind {
+ font-size: 2.8em;
+ font-family: Lato;
+ font-weight: 900;
+ color: #041E42;
+}
+
+.gwgoalsbehind {
+  font-size: 2.8em;
+  font-family: Lato;
+  font-weight: 900;
+  color: #041E42;
+}
+
+.goalsbehind {
+  font-size: 2.8em;
+  font-family: Lato;
+  font-weight: 900;
+  color: #041E42;
+	
+}
+
+
+
+}
+	
+	
+
+	
