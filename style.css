@@ -4,10 +4,7 @@
 
 @media screen and (min-width: 600px) {
 
-	logo {
 
-		
-	}
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -143,16 +140,20 @@ tr:hover {background-color: #C8102E; color: #FFFFFF;}
 img {
   display: block;
   margin: auto;
-	height: auto;
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 10px;
-max-width: 140px;
+  height: auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  max-width: 140px;
 }
 
 p {
  
-  margin: 0;
+
+	margin-left: 5;
+	margin-right: 5;
+	margin-top: 0;
+	margin-bottom: 0;
 
 }
 
@@ -189,10 +190,7 @@ p {
 
 @media screen and (max-width: 600px) {
   
-	logo {
 
-		
-	}
 	
 	
 html {
@@ -368,6 +366,7 @@ p {
   color: #041E42;
 	
 }
+
 
 
 
