@@ -144,6 +144,7 @@ img {
   display: block;
   margin: auto;
   max-width: 100%;
+	height: auto;
 }
 
 p {
@@ -326,6 +327,8 @@ tr:hover {background-color: #C8102E; color: #FFFFFF;}
 img {
   display: block;
   margin: auto;
+	height: auto;
+	max-width: 50%;
 
 }
 
