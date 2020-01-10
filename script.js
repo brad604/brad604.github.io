@@ -5,13 +5,13 @@ $.getJSON("https://statsapi.web.nhl.com/api/v1/people/8471214/stats?stats=career
 	
 
 	var goals = data.stats[0].splits[0].stat.goals;
-	var goalsbehind = 894 - data.stats[0].splits[0].stat.goals;
+	var goalsbehind = 894 - data.stats[0].splits[0].stat.goals + 1;
 	
 	var ppgoals = data.stats[0].splits[0].stat.powerPlayGoals;
-	var ppgoalsbehind = 274 - data.stats[0].splits[0].stat.powerPlayGoals;
+	var ppgoalsbehind = 274 - data.stats[0].splits[0].stat.powerPlayGoals + 1;
 	
 	var gwgoals = data.stats[0].splits[0].stat.gameWinningGoals;
-	var gwgoalsbehind = 135 - data.stats[0].splits[0].stat.gameWinningGoals;
+	var gwgoalsbehind = 135 - data.stats[0].splits[0].stat.gameWinningGoals + 1;
 	
 	
 		var goals2 = data.stats[0].splits[0].stat.goals;
