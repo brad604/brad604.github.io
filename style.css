@@ -163,27 +163,27 @@ p {
  font-size: 3.5em;
  font-family: Lato;
 		  font-weight: 700;
-		color: #041E42;
+		color: #C8102E;
 }
 
 .gwgoalsbehind {
   font-size: 3.5em;
   font-family: Lato;
 	  font-weight: 700;
-	color: #041E42;
+	color: #C8102E;
 }
 
 .goalsbehind {
   font-size: 3.5em;
   font-family: Lato;
   font-weight: 700;
-		color: #041E42;
+		color: #C8102E;
 	
 }
 
-.goalsbehind:hover {color: #C8102E;}
-.ppgoalsbehind:hover {color: #C8102E;}
-.gwgoalsbehind:hover {color: #C8102E;}
+.goalsbehind:hover {color: #041E42;}
+.ppgoalsbehind:hover {color: #041E42;}
+.gwgoalsbehind:hover {color: #041E42;}
 
 }
 
@@ -353,21 +353,21 @@ p {
  font-size: 3.0em;
  font-family: Lato;
  font-weight: 700;
- color: #041E42;
+ color: #C8102E;
 }
 
 .gwgoalsbehind {
   font-size: 3.0em;
   font-family: Lato;
   font-weight: 700;
-  color: #041E42;
+  color: #C8102E;
 }
 
 .goalsbehind {
   font-size: 3.0em;
   font-family: Lato;
   font-weight: 700;
-  color: #041E42;
+  color: #C8102E;
 	
 }
 
