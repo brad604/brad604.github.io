@@ -9,6 +9,13 @@
 
 	margin: auto;	
 	}
+	
+	.amazon{
+			text-align: center;
+
+	margin: auto;		
+		
+	}
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -196,6 +203,14 @@ p {
 
 	margin: auto;	
 	}	
+	
+		.amazon{
+			text-align: center;
+
+	margin: auto;		
+		
+	}
+	
 	
 html {
   -webkit-font-smoothing: antialiased;
