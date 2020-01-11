@@ -10,11 +10,12 @@
 	margin: auto;	
 	}
 	
-	.amazon{
-			text-align: center;
+		.amazon{
+	
+		text-align: center;
+	max-width: 500px;
+	margin: auto;
 
-	margin: auto;		
-		
 	}
 
 html {
@@ -204,9 +205,11 @@ p {
 	}	
 	
 		.amazon{
+	
 		text-align: center;
-		margin: auto;		
-		
+	max-width: 500px;
+	margin: auto;
+
 	}
 	
 	
