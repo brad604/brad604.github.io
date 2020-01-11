@@ -12,9 +12,14 @@
 	
 		.amazon{
 	
-		text-align: center;
+	text-align: center;
+	background-color: #FFFFFF;
 	max-width: 500px;
 	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-left: 3%;
+	padding-right: 3%;
 
 	}
 
