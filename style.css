@@ -10,6 +10,10 @@
 	margin: auto;	
 	}
 	
+	
+
+	
+	
 		.amazon{
 	
 	text-align: center;
@@ -340,6 +344,7 @@ html {
 td {
   padding: 3.5px;
   text-align: center;
+	font-size: 0.95em;
 	
 }
 
@@ -348,6 +353,7 @@ th {
   color: white;
   padding: 4.5px;
   text-align: center;
+	font-size: 0.95em;
 }
 
 tr:nth-child(even) {background-color: #FFFFFF;}
@@ -368,6 +374,7 @@ max-width: 100px;
 p {
  
   margin: 0;
+			font-size: 0.95em;
 
 }
 
@@ -379,25 +386,26 @@ p {
 	padding-left: 4%;
 	padding-right: 4%;
 
+
 	}
 
 
 .ppgoalsbehind {
- font-size: 3.0em;
+  font-size: 2.95em;
  font-family: Lato, Arial, sans-serif;
  font-weight: 700;
  color: #041E42;
 }
 
 .gwgoalsbehind {
-  font-size: 3.0em;
+  font-size: 2.95em;
  font-family: Lato, Arial, sans-serif;
   font-weight: 700;
   color: #041E42;
 }
 
 .goalsbehind {
-  font-size: 3.0em;
+  font-size: 2.95em;
  font-family: Lato, Arial, sans-serif;
   font-weight: 700;
   color: #041E42;
