@@ -161,6 +161,7 @@ html {
 td {
   padding: 3.5px;
   text-align: center;
+
 	
 }
 
@@ -169,7 +170,10 @@ th {
   color: white;
   padding: 4.5px;
   text-align: center;
+	
 }
+	
+	
 
 tr:nth-child(even) {background-color: #FFFFFF;}
 tr:hover {background-color: #C8102E; color: #FFFFFF;}
