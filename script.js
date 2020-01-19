@@ -60,13 +60,9 @@ $.getJSON("https://records.nhl.com/site/api/skater-career-scoring-regular-season
 	
 	console.log(data);
 	
-	
 
 	var otpoints = data.data[0].overtimePoints;
-
 	var otgoals = data.data[0].overtimeGoals;	
-	
-
 	
 
 		$('.otpoints').append(otpoints);
