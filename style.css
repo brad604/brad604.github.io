@@ -4,6 +4,18 @@
 
 @media screen and (min-width: 600px) {
 
+	
+	.twitter-share-button{
+		
+		href="https://twitter.com/intent/tweet"
+	}
+	
+	
+	.share{
+	text-align: center;
+	margin: auto;	
+	}
+	
 	.follow{
 		text-align: center;
 

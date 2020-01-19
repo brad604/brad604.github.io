@@ -1,3 +1,4 @@
+
 $.getJSON("https://statsapi.web.nhl.com/api/v1/people/8471214/stats?stats=careerRegularSeason", function(data){
 	
 	console.log(data);
