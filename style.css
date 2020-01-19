@@ -212,6 +212,13 @@ p {
 
 @media screen and (max-width: 600px) {
   
+	
+	.ovirow{
+		
+		background-color: #C8102E;	
+		color: #ffffff;
+	}
+	
 
 	.follow{
 	text-align: center;
@@ -303,10 +310,14 @@ html {
 
 .ppgoals {
 	font-weight: bold;
+				color: #ffffff;
+			background-color: #C8102E;	
 }
 
 .gwgoals {
 	font-weight: bold;
+				color: #ffffff;
+			background-color: #C8102E;	
 }
 	
 	.pmgwgoals {
@@ -315,6 +326,9 @@ html {
 
 .goals {
 	font-weight: bold;
+			color: #ffffff;
+			background-color: #C8102E;	
+	
 }
 
 
