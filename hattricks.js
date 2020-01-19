@@ -5,16 +5,16 @@ $.getJSON("https://records.nhl.com/site/api/three-or-more-goal-games-career?caye
 	
 	
 
-	var hats = data.data[0].threeOrMoreGoalGames;
-
-
-	
-	
+	var hattricks = data.data[0].threeOrMoreGoalGames;
+		var hatsbehind = 50 - data.data[0].threeOrMoreGoalGames + 1;
 
 	
+	
 
-		$('.hats').append(hats);
+	
 
+		$('.hattricks').append(hattricks);
+			$('.hatsbehind').append(hatsbehind);
 
 	
 	}
