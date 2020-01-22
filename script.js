@@ -34,6 +34,21 @@ $.getJSON("https://statsapi.web.nhl.com/api/v1/people/8471214/stats?stats=career
 	}
 		 );
 
+
+
+$.getJSON("https://statsapi.web.nhl.com/api/v1/people/8466139/stats?stats=careerRegularSeason", function(data){
+	
+	console.log(data);
+	
+	var pmgwgoals = data.stats[0].splits[0].stat.gameWinningGoals;
+
+	
+		$('.pmgwgoals').append(pmgwgoals);
+
+	
+	}
+		 );
+
 $.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8471214", 
 		  function(data){
    
