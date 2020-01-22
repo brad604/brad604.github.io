@@ -143,6 +143,11 @@ html {
 	color: #ffffff;
 	background-color: #C8102E;	
 }
+	.multigoal {
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #C8102E;	
+}	
 
 
 .ppgoals-record {
@@ -254,11 +259,20 @@ p {
 		color: #041E42;
 	
 }	
+	
+.multigoalbehind {
+  font-size: 3.5em;
+ font-family: Lato, Arial, sans-serif;
+  font-weight: 700;
+	color: #041E42;
+	
+}		
 
 .goalsbehind:hover {color: #C8102E;}
 .ppgoalsbehind:hover {color: #C8102E;}
 .gwgoalsbehind:hover {color: #C8102E;}
 .hatsbehind:hover {color: #C8102E;}
+.multigoalbehind:hover {color: #C8102E;}
 }
 
 
@@ -390,6 +404,12 @@ html {
 	
 }
 
+	.multigoal {
+	font-weight: bold;
+			color: #ffffff;
+			background-color: #C8102E;	
+	
+}	
 
 .ppgoals-record {
 	text-align: center;
@@ -510,6 +530,13 @@ p {
 	
 }
 
+.multigoalbehind {
+  font-size: 2.95em;
+ font-family: Lato, Arial, sans-serif;
+  font-weight: 700;
+  color: #041E42;
+	
+}	
 
 }
 	

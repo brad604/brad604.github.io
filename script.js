@@ -103,7 +103,7 @@ $.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/
 	
 	
 	var multigoal = data.data[0].multiGoalGames;
-	var multigoalbehind = 5000 - data.data[0].multiGoalGames;
+	var multigoalbehind = 189 - data.data[0].multiGoalGames;
 	
 
 		$('.multigoal').append(multigoal);
