@@ -49,7 +49,7 @@ $.getJSON("https://statsapi.web.nhl.com/api/v1/people/8466139/stats?stats=career
 	}
 		 );
 
-$.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8471214", 
+$.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8471214", 
 		  function(data){
    
     console.log(data);
@@ -67,7 +67,7 @@ $.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/
     }
          );
 
-$.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/three-or-more-goal-games-career?cayenneExp=threeOrMoreGoalGames>=1%20and%20playerId=8471214", function(data){
+$.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/three-or-more-goal-games-career?cayenneExp=threeOrMoreGoalGames>=1%20and%20playerId=8471214", function(data){
 	
 	console.log(data);
 	
@@ -82,7 +82,7 @@ var hatsbehind = 50 - data.data[0].threeOrMoreGoalGames + 1;
 
 
 
-$.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/skater-multipoint-games-career?cayenneExp=gameTypeId=2%20and%20playerId=8471214", function(data){
+$.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/skater-multipoint-games-career?cayenneExp=gameTypeId=2%20and%20playerId=8471214", function(data){
 	
 	console.log(data);
 	
@@ -96,7 +96,7 @@ $.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/
 		 );
 
 
-$.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8471675", 
+$.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8471675", 
 		  function(data){
    
     console.log(data);
@@ -110,7 +110,7 @@ $.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/
     }
          );
 
-$.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8470612", 
+$.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8470612", 
 		  function(data){
    
     console.log(data);
@@ -124,7 +124,7 @@ $.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/
     }
          );
 
-$.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8469454", 
+$.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8469454", 
 		  function(data){
    
     console.log(data);
@@ -138,7 +138,7 @@ $.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/
     }
          );
 
-$.getJSON("https://cors-anywhere.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8471215", 
+$.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8471215", 
 		  function(data){
    
     console.log(data);
