@@ -3,13 +3,11 @@
 }
 
 @media screen and (min-width: 600px) {
-
 	
 	.twitter-share-button{
 		
 		href="https://twitter.com/intent/tweet"
 	}
-	
 	
 	.share{
 	text-align: center;
@@ -28,13 +26,11 @@
 	margin: auto;	
 	}
 	
-	
 	.ovirow{
 		
 		background-color: #C8102E;	
 		color: #ffffff;
 	}
-	
 	
 		.amazon{
 	
@@ -56,8 +52,6 @@ html {
   color: #666;
   background: #F6F6F6;
 }
-
-
 	
 	.qheader {
 	text-align: center;
@@ -68,24 +62,12 @@ html {
 }
 
 
-.goals-record {
-	text-align: center;
-	background-color: #FFFFFF;
-	max-width: 500px;
-	margin: auto;
-	padding-top: 25px;
-	padding-bottom: 15px;
-	padding-left: 3%;
-	padding-right: 3%;
-}
-
-.goalschart {
+.chart {
 	font-size:0.9em;
 
-
 }
 
-.goalstable {
+.table {
 	align: center;
 	width: 100%;
 	margin: auto;
@@ -93,31 +75,6 @@ html {
 	background-color: #F6F6F6;
 }
 
-.ppgoalschart {
-	font-size:0.9em;
-
-}
-
-.ppgoalstable {
-	align: center;
-	width: 100%;
-	margin: auto;
-	border:15px solid white;
-	background-color: #F6F6F6;
-}
-
-.gwgoalschart {
-	font-size:0.9em;
-
-}
-
-.gwgoalstable {
-	align: center;
-	width: 100%;
-	margin: auto;
-	border:15px solid white;
-	background-color: #F6F6F6;
-}
 
 .ppgoals {
 	font-weight: bold;
@@ -155,7 +112,7 @@ html {
 }		
 
 
-.ppgoals-record {
+.record {
 	text-align: center;
 	background-color: #FFFFFF;
 	max-width: 500px;
@@ -167,40 +124,16 @@ html {
 
 }
 
-.gwgoals-record {
-	text-align: center;
-	background-color: #FFFFFF;
-	max-width: 500px;
-	margin: auto;
-	padding-top: 25px;
-	padding-bottom: 15px;
-		padding-left: 3%;
-	padding-right: 3%;
-}
-	
-	.hattrick-record {
-	text-align: center;
-	background-color: #FFFFFF;
-	max-width: 500px;
-	margin: auto;
-	padding-top: 25px;
-	padding-bottom: 15px;
-		padding-left: 3%;
-	padding-right: 3%;
-}
 
 .otherrecords {
 	text-align: center;
 	font-weight:900;
 	font-size: 1.2em;
-}
-	
-	
+}	
 
 td {
   padding: 3.5px;
   text-align: center;
-
 	
 }
 
@@ -210,9 +143,7 @@ th {
   padding: 4.5px;
   text-align: center;
 	
-}
-	
-	
+}	
 
 tr:nth-child(even) {background-color: #FFFFFF;}
 tr:hover {background-color: #C8102E; color: #FFFFFF;}
@@ -232,8 +163,6 @@ p {
   margin: 0;
 
 }
-
-
 
 .ppgoalsbehind {
  font-size: 3.5em;
@@ -291,7 +220,6 @@ p {
 
 @media screen and (max-width: 600px) {
   
-	
 	.ovirow{
 		
 		background-color: #C8102E;	
@@ -336,23 +264,12 @@ html {
 }
 
 
-.goals-record {
-	text-align: center;
-	background-color: #FFFFFF;
-	max-width: 500px;
-	margin: auto;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	padding-left: 4%;
-	padding-right: 4%;
-}
-
-.goalschart {
+.chart {
 	font-size:0.9em;
 
 }
 
-.goalstable {
+.table {
 	align: center;
 	width: 100%;
 	margin: auto;
@@ -360,32 +277,6 @@ html {
 	background-color: #F6F6F6;
 }
 
-.ppgoalschart {
-	font-size:0.9em;
-
-}
-
-.ppgoalstable {
-	align: center;
-	width: 100%;
-	margin: auto;
-	border:15px solid white;
-	background-color: #F6F6F6;
-}
-
-.gwgoalschart {
-	font-size:0.9em;
-
-
-}
-
-.gwgoalstable {
-	align: center;
-	width: 100%;
-	margin: auto;
-	border:15px solid white;
-	background-color: #F6F6F6;
-}
 
 .ppgoals {
 	font-weight: bold;
@@ -431,7 +322,7 @@ html {
 	
 }		
 
-.ppgoals-record {
+.record {
 	text-align: center;
 	background-color: #FFFFFF;
 	max-width: 500px;
@@ -443,27 +334,6 @@ html {
 
 }
 
-.gwgoals-record {
-	text-align: center;
-	background-color: #FFFFFF;
-	max-width: 500px;
-	margin: auto;
-	padding-top: 20px;
-	padding-bottom: 10px;
-		padding-left: 4%;
-	padding-right: 4%;
-}
-	
-.hattrick-record {
-	text-align: center;
-	background-color: #FFFFFF;
-	max-width: 500px;
-	margin: auto;
-	padding-top: 20px;
-	padding-bottom: 10px;
-		padding-left: 4%;
-	padding-right: 4%;
-}	
 
 .otherrecords {
 	text-align: center;
@@ -516,9 +386,7 @@ p {
 	padding-left: 3%;
 	padding-right: 3%;
 
-
 	}
-
 
 .ppgoalsbehind {
   font-size: 2.95em;
@@ -567,7 +435,4 @@ p {
 }	
 
 }
-	
-	
-
 	
