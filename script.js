@@ -10,26 +10,12 @@ $.getJSON("https://statsapi.web.nhl.com/api/v1/people/8471214/stats?stats=career
 	var gwgoals = data.stats[0].splits[0].stat.gameWinningGoals;
 	var gwgoalsbehind = 135 - data.stats[0].splits[0].stat.gameWinningGoals + 1;
 	
-		var goals2 = data.stats[0].splits[0].stat.goals;
-		var assists = data.stats[0].splits[0].stat.assists;
-		var games = data.stats[0].splits[0].stat.games;
-		var shots = data.stats[0].splits[0].stat.shots;
-		var points = data.stats[0].splits[0].stat.points;
-		var pim = data.stats[0].splits[0].stat.penaltyMinutes;	
-	
 		$('.goals').append(goals);
  		$('.goalsbehind').append(goalsbehind);
 		$('.ppgoals').append(ppgoals);
  		$('.ppgoalsbehind').append(ppgoalsbehind);
 		$('.gwgoals').append(gwgoals);
  		$('.gwgoalsbehind').append(gwgoalsbehind);	
-	
-		$('.goals2').append(goals2);
-		$('.assists').append(assists);
-		$('.games').append(games);
-		$('.shots').append(shots);
-		$('.pim').append(pim);
-		$('.points').append(points);
 	
 	}
 		 );
@@ -42,9 +28,7 @@ $.getJSON("https://statsapi.web.nhl.com/api/v1/people/8466139/stats?stats=career
 	
 	var pmgwgoals = data.stats[0].splits[0].stat.gameWinningGoals;
 
-	
 		$('.pmgwgoals').append(pmgwgoals);
-
 	
 	}
 		 );
@@ -103,7 +87,6 @@ $.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/ska
    
     var scotpoints = data.data[0].overtimePoints;  
  
-
         $('.scotpoints').append(scotpoints);
  
 	
@@ -120,7 +103,6 @@ $.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/ska
 
         $('.rgotpoints').append(rgotpoints);
  
-	
     }
          );
 
@@ -134,7 +116,6 @@ $.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/ska
 
         $('.ikotpoints').append(ikotpoints);
  
-	
     }
          );
 
@@ -148,6 +129,5 @@ $.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/ska
 
         $('.emotpoints').append(emotpoints);
  
-	
     }
          );
