@@ -1,17 +1,33 @@
 
 
+$.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/scoring-plateaus?cayenneExp=fortyGoalSeasons%3E=1%20and%20playerId=8471214", 
+		  function(data){
+   
+    console.log(data);
+   
+    var fortygoal = data.data[0].fortyGoalSeasons;  
+	var fortygoalbehind = 12 - data.data[0].fortyGoalSeasons + 1;  
+    var fiftygoal = data.data[0].fiftyGoalSeasons;     
+    var fiftygoalbehind = 9 - data.data[0].fiftyGoalSeasons + 1;     
+
+        $('.fortygoal').append(fortygoal);
+        $('.fortygoalbehind').append(fortygoalbehind);
+        $('.fiftygoal').append(fiftygoal);
+        $('.fiftygoalbehind').append(fiftygoalbehind);	
+	
+    }
+         );
+
 $.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8471214", 
 		  function(data){
    
     console.log(data);
    
-    var otgoals = data.data[0].overtimeGoals;  
-	var otgoalsbehind = 5000 - data.data[0].overtimeGoals + 1;  
+
     var otpoints = data.data[0].overtimePoints;     
     var otpointsbehind = 37 - data.data[0].overtimePoints + 1;     
 
-        $('.otgoals').append(otgoals);
-        $('.otgoalsbehind').append(otgoalsbehind);
+
         $('.otpoints').append(otpoints);
         $('.otpointsbehind').append(otpointsbehind);	
 	
