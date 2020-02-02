@@ -99,6 +99,19 @@ $.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/ska
     }
          );
 
+$.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/skater-career-scoring-regular-season?cayenneExp=playerId=8466138", 
+		  function(data){
+   
+    console.log(data);
+   
+    var jtotpoints = data.data[0].overtimePoints;  
+ 
+
+        $('.jtotpoints').append(jtotpoints);
+ 
+    }
+         );
+
 
 $.getJSON("https://statsapi.web.nhl.com/api/v1/people/8471214/stats?stats=careerRegularSeason", function(data){
 	
