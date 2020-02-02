@@ -2,6 +2,52 @@
   box-sizing: border-box
 }
 
+.collapsible {
+  background-color: #041E42;
+  color: WHITE;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+}
+
+.active, .collapsible:hover {
+  background-color: #041E42;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: WHITE;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #F6F6F6;
+	  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+}
+
+
 @media screen and (min-width: 600px) {
 	
 	.twitter-share-button{
