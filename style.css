@@ -9,16 +9,17 @@
 	
 .collapsible {
 	text-align: center;
+	margin: auto;
 	display:inline-block;
-  background-color: #F6F6F6;
+  background-color: #ffffff;
   color: #666;
   cursor: pointer;
   padding: 10px;
   border: none;
-  width: 500px;
-  font-weight: bold;
 
-  outline: dotted;
+  font-weight: none;
+  line-height: 1.55;
+  outline: none;
   font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,7 +27,7 @@
 }
 
 .active, .collapsible:hover {
-  background-color: #F6F6F6;
+  background-color: #ffffff;
 }
 
 .collapsible:after {
@@ -36,7 +37,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
-  margin-left: 5px;
+
 }
 
 .active:after {
@@ -44,11 +45,11 @@
 }
 
 .content {
-  padding: 0 18px;
+
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #F6F6F6;
+  background-color: #ffffff;
 	  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
@@ -543,32 +544,36 @@ p {
 }
 	
 .collapsible {
-  background-color: #041E42;
-  color: WHITE;
+	text-align: center;
+	display:inline-block;
+  background-color: #ffffff;
+  color: #666;
+	  line-height: 1.6;
   cursor: pointer;
-  padding: 18px;
+  padding: 10px;
   border: none;
-  font-weight: bold;
-  text-align: center;
+
+  font-weight: none;
+
   outline: none;
   font-size: 15px;
-    -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
 }
 
 .active, .collapsible:hover {
-  background-color: #041E42;
+  background-color: #ffffff;
 }
 
 .collapsible:after {
   content: '\002B';
-  color: WHITE;
+  color: #666;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
-  margin-left: 5px;
+
 }
 
 .active:after {
@@ -576,11 +581,11 @@ p {
 }
 
 .content {
-  padding: 0 18px;
+
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #F6F6F6;
+  background-color: #ffffff;
 	  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
