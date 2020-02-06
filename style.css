@@ -4,7 +4,6 @@
 
 
 
-
 @media screen and (min-width: 600px) {
 	
 .collapsible {
@@ -16,7 +15,6 @@
   cursor: pointer;
   padding: 10px;
   border: none;
-
   font-weight: none;
   line-height: 1.55;
   outline: none;
@@ -32,16 +30,18 @@
 
 .collapsible:after {
   content: '\002B';
-  color: #666;
+  color: #041E42;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
-
+font-size: 1.5em;
 }
 
 .active:after {
   content: "\2212";
+	font-size: 1.5em;
+	color: #C8102E;	
 }
 
 .content {
@@ -568,6 +568,8 @@ p {
 
 .collapsible:after {
   content: '\002B';
+	  color: #041E42;
+	font-size: 1.5em;
   color: #666;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
@@ -578,6 +580,8 @@ p {
 
 .active:after {
   content: "\2212";
+	font-size: 1.5em;
+		color: #C8102E;	
 }
 
 .content {
