@@ -8,17 +8,19 @@
 @media screen and (min-width: 600px) {
 	
 .collapsible {
+	text-align: center;
+	display:inline-block;
   background-color: #F6F6F6;
   color: #666;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
+  padding: 10px;
   border: none;
+  width: 500px;
   font-weight: bold;
-  text-align: center;
-  outline: none;
+
+  outline: dotted;
   font-size: 15px;
-    -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
 }
