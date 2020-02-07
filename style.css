@@ -7,6 +7,7 @@
 @media screen and (min-width: 600px) {
 	
 .collapsible {
+	font-size: 1em;
 	text-align: center;
 	margin: auto;
 	display:inline-block;
@@ -49,7 +50,7 @@ font-size: 1.5em;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #ffffff;
-	  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
 }	
@@ -543,15 +544,17 @@ p {
 }
 	
 .collapsible {
+	font-size: 1em;
 	text-align: center;
+	margin: auto;
 	display:inline-block;
   background-color: #ffffff;
   color: #666;
-	  line-height: 1.6;
   cursor: pointer;
   padding: 10px;
   border: none;
   font-weight: none;
+  line-height: 1.55;
   outline: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -564,13 +567,12 @@ p {
 
 .collapsible:after {
   content: '\002B';
-	  color: #041E42;
-	font-size: 1.5em;
-  color: #666;
+  color: #041E42;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
+font-size: 1.5em;
 
 }
 
@@ -581,12 +583,11 @@ p {
 }
 
 .content {
-
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #ffffff;
-	  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
 }	
