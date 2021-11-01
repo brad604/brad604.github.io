@@ -9,11 +9,15 @@ $.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/sco
 	var fortygoalbehind = 12 - data.data[0].fortyGoalSeasons + 1;  
     var fiftygoal = data.data[0].fiftyGoalSeasons;     
     var fiftygoalbehind = 9 - data.data[0].fiftyGoalSeasons + 1;     
+	    var thirtygoal = data.data[0].thirtyGoalSeasons;     
+    var thirtygoalbehind = 9 - data.data[0].thirtyGoalSeasons + 1;     
 
         $('.fortygoal').append(fortygoal);
         $('.fortygoalbehind').append(fortygoalbehind);
         $('.fiftygoal').append(fiftygoal);
         $('.fiftygoalbehind').append(fiftygoalbehind);	
+	        $('.thirtygoal').append(thirtygoal);
+        $('.thirtygoalbehind').append(thirtygoalbehind);	
 	
     }
          );
