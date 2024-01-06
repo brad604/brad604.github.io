@@ -137,7 +137,7 @@ $.getJSON("https://ovirecords.herokuapp.com/https://records.nhl.com/site/api/ska
          );
 
 
-$.getJSON("https://statsapi.web.nhl.com/api/v1/people/8471214/stats?stats=careerRegularSeason", function(data){
+$.getJSON("https://api-web.nhle.com/v1/player/8471214/landing", function(data){
 	
 	console.log(data);
 	
