@@ -141,7 +141,7 @@ $.getJSON("https://api-web.nhle.com/v1/player/8471214/landing", function(data){
 	
 	console.log(data);
 	
-	var goals = data.career[0].goals;
+	var goals = data.featuredStats[0].careerTotals[0].goals;
 	var goalsbehind = 894 - data.stats[0].splits[0].stat.goals + 1;
 	var ppgoals = data.stats[0].splits[0].stat.powerPlayGoals;
 	var ppgoalsbehind = 274 - data.stats[0].splits[0].stat.powerPlayGoals + 1;
